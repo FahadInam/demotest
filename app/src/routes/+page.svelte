@@ -96,12 +96,6 @@
                                                                 <span class="text-lg md:text-xl text-[#6B7280] font-normal mt-2">Erstellen dein Lebenslauf</span
                                                                 >
                                                         </div>
-                                                        <img 
-                                                                src="/arrow-2.png" 
-                                                                alt="" 
-                                                                class="absolute left-0 top-full w-72 h-40 hidden md:block pointer-events-none opacity-40"
-                                                                style="transform: translateY(-20px);"
-                                                        />
                                                 </div>
                                                 <div class="flex-1 order-1 md:order-2">
                                                         <div class="w-56 md:w-64 mx-auto md:mx-0">
@@ -109,6 +103,12 @@
                                                         </div>
                                                 </div>
                                         </div>
+                                        <img 
+                                                src="/arrow-2.png" 
+                                                alt="" 
+                                                class="step-one-arrow absolute hidden md:block pointer-events-none"
+                                                style="width: 340px; height: 170px; bottom: -110px; left: 5%; opacity: 0.3;"
+                                        />
                                 </div>
 
                                 <div class="mb-32 relative pb-20">
@@ -136,14 +136,14 @@
                                                                 <span class="text-lg md:text-xl text-[#6B7280] font-normal mt-2">Finde passende Jobs</span
                                                                 >
                                                         </div>
-                                                        <img 
-                                                                src="/arrow-1.png" 
-                                                                alt="" 
-                                                                class="absolute right-0 top-full w-72 h-40 hidden md:block pointer-events-none opacity-40"
-                                                                style="transform: translateY(-20px);"
-                                                        />
                                                 </div>
                                         </div>
+                                        <img 
+                                                src="/arrow-1.png" 
+                                                alt="" 
+                                                class="step-two-arrow absolute hidden md:block pointer-events-none"
+                                                style="width: 350px; height: 175px; bottom: -115px; right: 3%; opacity: 0.3; transform: scaleX(-1);"
+                                        />
                                 </div>
 
                                 <div class="mb-16">
