@@ -104,10 +104,10 @@
                                                 </div>
                                         </div>
                                         <img 
-                                                src="/arrow-2.png" 
+                                                src="/arrow-step1-to-step2.png" 
                                                 alt="" 
                                                 class="step-one-arrow absolute hidden md:block pointer-events-none"
-                                                style="width: 340px; height: 170px; bottom: -110px; left: 5%; opacity: 0.3;"
+                                                style="width: 450px; height: 200px; top: 100%; left: 17%; opacity: 0.5;"
                                         />
                                 </div>
 
@@ -139,10 +139,10 @@
                                                 </div>
                                         </div>
                                         <img 
-                                                src="/arrow-1.png" 
+                                                src="/arrow-step2-to-step3.png" 
                                                 alt="" 
                                                 class="step-two-arrow absolute hidden md:block pointer-events-none"
-                                                style="width: 350px; height: 175px; bottom: -115px; right: 3%; opacity: 0.3; transform: scaleX(-1);"
+                                                style="width: 450px; height: 200px; top: 100%; right: 34%; opacity: 0.5;"
                                         />
                                 </div>
 
