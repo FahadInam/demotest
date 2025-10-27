@@ -103,21 +103,11 @@
                                                         </div>
                                                 </div>
                                         </div>
-                                        <svg
-                                                class="absolute left-1/2 -bottom-12 transform -translate-x-1/2 hidden md:block pointer-events-none"
-                                                width="300"
-                                                height="100"
-                                                viewBox="0 0 300 100"
-                                                fill="none"
-                                        >
-                                                <path
-                                                        d="M 30,5 Q 120,70 270,5"
-                                                        stroke="#D1D5DB"
-                                                        stroke-width="1.5"
-                                                        fill="none"
-                                                        stroke-dasharray="4,4"
-                                                />
-                                        </svg>
+                                        <img 
+                                                src="/arrow-2.png" 
+                                                alt="" 
+                                                class="absolute right-0 -bottom-16 w-64 h-32 hidden md:block pointer-events-none opacity-50"
+                                        />
                                 </div>
 
                                 <div class="mb-24 relative">
@@ -137,21 +127,11 @@
                                                         </div>
                                                 </div>
                                         </div>
-                                        <svg
-                                                class="absolute left-1/2 -bottom-12 transform -translate-x-1/2 hidden md:block pointer-events-none"
-                                                width="300"
-                                                height="100"
-                                                viewBox="0 0 300 100"
-                                                fill="none"
-                                        >
-                                                <path
-                                                        d="M 30,5 Q 120,70 270,5"
-                                                        stroke="#D1D5DB"
-                                                        stroke-width="1.5"
-                                                        fill="none"
-                                                        stroke-dasharray="4,4"
-                                                />
-                                        </svg>
+                                        <img 
+                                                src="/arrow-1.png" 
+                                                alt="" 
+                                                class="absolute left-0 -bottom-16 w-64 h-32 hidden md:block pointer-events-none opacity-50"
+                                        />
                                 </div>
 
                                 <div class="mb-16">
