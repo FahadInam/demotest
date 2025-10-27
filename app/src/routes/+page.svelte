@@ -44,8 +44,8 @@
                         </div>
                 </div>
                 <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
-                        <svg class="relative block w-full h-[60px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                                <path d="M0,0 Q600,120 1200,0 L1200,120 L0,120 Z" fill="#ffffff"></path>
+                        <svg class="relative block w-full h-[35px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 35" preserveAspectRatio="none">
+                                <path d="M0,25 C240,20 480,18 720,20 C930,22 1080,21 1200,23 L1200,35 L0,35 Z" fill="#ffffff"></path>
                         </svg>
                 </div>
         </section>
