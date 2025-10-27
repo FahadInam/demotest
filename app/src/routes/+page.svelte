@@ -51,7 +51,7 @@
                 </div>
         </section>
 
-        <section class="py-12 px-6 bg-white">
+        <section class="py-12 bg-white">
                 <div class="max-w-6xl mx-auto">
                         <div class="flex flex-wrap justify-center gap-3 mb-16">
                                 <button
@@ -87,7 +87,7 @@
                                 Drei einfache Schritte<br />zu deinem neuen Job
                         </h2>
 
-                        <div class="relative max-w-5xl mx-auto">
+                        <div class="relative  mx-auto">
                                 <div class="mb-32 relative pb-20">
                                         <div class="flex flex-col md:flex-row items-center gap-12 md:gap-16">
                                                 <div class="flex-1 text-left md:text-right order-2 md:order-1 relative">
