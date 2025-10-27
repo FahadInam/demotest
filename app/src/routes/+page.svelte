@@ -22,22 +22,23 @@
                 <a href="#login" class="text-[#4DB8AC] text-sm font-medium hover:underline">Login</a>
         </header>
 
-        <section class="relative pt-24 pb-24 px-6 overflow-hidden" style="background: linear-gradient(102deg, #EBF4FF 0%, #E6FFFA 100%);">
+        <section class="relative pt-20 pb-28 px-6 overflow-hidden" style="background: linear-gradient(102deg, #EBF4FF 0%, #E6FFFA 100%);">
                 <div class="max-w-6xl mx-auto">
-                        <div class="flex flex-col md:flex-row items-center justify-between gap-16">
+                        <div class="flex flex-col md:flex-row items-center justify-between gap-12">
                                 <div class="flex-1 max-w-md z-10">
-                                        <h1 class="text-5xl md:text-6xl font-bold text-[#2C3E50] leading-[1.15] mb-10">
+                                        <h1 class="text-5xl md:text-6xl font-bold text-[#2C3E50] leading-[1.15] mb-8">
                                                 Deine Job<br />website
                                         </h1>
                                         <button
-                                                class="bg-[#4DB8AC] hover:bg-[#3DA89C] text-white font-medium px-10 py-3.5 rounded-md transition-colors shadow-md text-[15px]"
+                                                class="w-80 h-10 text-white font-medium rounded-xl transition-all shadow-md text-[15px] flex items-center justify-center"
+                                                style="background: linear-gradient(95deg, #319795 0%, #3182CE 100%);"
                                         >
                                                 Kostenlos Registrieren
                                         </button>
                                 </div>
 
-                                <div class="flex-1 max-w-md">
-                                        <div class="w-80 h-80 mx-auto">
+                                <div class="flex-1 max-w-md flex justify-center">
+                                        <div class="w-80 h-80 bg-white rounded-full shadow-lg flex items-center justify-center p-10">
                                                 <HandshakeIllustration />
                                         </div>
                                 </div>
