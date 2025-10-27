@@ -17,7 +17,7 @@ This is a pixel-perfect replica of a German job website landing page built with 
 app/
 ├── src/
 │   ├── lib/
-│   │   ├── components/          # SVG illustration components
+│   │   ├── components/          # Illustration wrapper components
 │   │   │   ├── HandshakeIllustration.svelte
 │   │   │   ├── PersonWithCVIllustration.svelte
 │   │   │   ├── LaptopSceneIllustration.svelte
@@ -28,6 +28,11 @@ app/
 │   │   └── +page.svelte         # Main landing page
 │   ├── app.css                   # Tailwind CSS imports
 │   └── app.html                  # HTML template
+├── static/                       # Static assets served directly
+│   ├── handshake.png             # Undraw agreement illustration
+│   ├── personal-file.png         # Undraw personal file illustration
+│   ├── task.png                  # Undraw task illustration
+│   └── profile-data.png          # Undraw profile data illustration
 ├── vite.config.ts               # Vite configuration with Tailwind plugin
 ├── svelte.config.js             # SvelteKit configuration
 └── package.json                 # Dependencies
@@ -54,7 +59,7 @@ Three tabs with active state styling:
 
 Each step features:
 - Alternating left/right layout
-- Custom SVG illustrations
+- Professional undraw.co illustration assets
 - Curved connecting lines between steps
 - Responsive design
 
@@ -99,17 +104,19 @@ npm run preview
 ```
 
 ## Recent Changes
-- **2025-10-27**: Initial implementation completed
+- **2025-10-27**: Project completed with professional illustrations
   - Created pixel-perfect replica of German job website design
-  - Built all SVG illustrations from scratch
-  - Implemented responsive layout with Tailwind CSS
+  - Integrated professional undraw.co PNG illustration assets
+  - Implemented responsive layout with Tailwind CSS v4
   - Fixed German grammar in step descriptions
   - Ensured all three steps have unique, meaningful text
   - Added allowedHosts configuration for Replit deployment
+  - Replaced custom SVG components with high-quality undraw images
 
 ## Notes
-- All SVG illustrations are custom-built components
+- Professional undraw.co illustrations integrated as PNG assets
 - Design follows SvelteKit 5 best practices with runes syntax
 - Fully responsive across all device sizes
 - Accessible semantic HTML structure
 - Clean, maintainable component architecture
+- Static assets optimized for fast loading
