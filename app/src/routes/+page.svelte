@@ -4,7 +4,7 @@
         import LaptopSceneIllustration from '$lib/components/LaptopSceneIllustration.svelte';
         import ApplicationScreenIllustration from '$lib/components/ApplicationScreenIllustration.svelte';
 
-        let activeTab = 'jobsuchende';
+        let activeTab = 'arbeitnehmer';
 </script>
 
 <svelte:head>
@@ -56,12 +56,12 @@
                         <div class="flex flex-wrap justify-center gap-3 mb-16">
                                 <button
                                         class="px-7 py-2.5 rounded-full text-[14px] font-medium transition-all {activeTab ===
-                                        'jobsuchende'
+                                        'arbeitnehmer'
                                                 ? 'bg-[#4DB8AC] text-white shadow-sm'
                                                 : 'bg-white text-[#6B7280] border border-[#D1D5DB] hover:border-[#4DB8AC]'}"
-                                        onclick={() => (activeTab = 'jobsuchende')}
+                                        onclick={() => (activeTab = 'arbeitnehmer')}
                                 >
-                                        Jobsuchende
+                                        Arbeitnehmer
                                 </button>
                                 <button
                                         class="px-7 py-2.5 rounded-full text-[14px] font-medium transition-all {activeTab ===
@@ -74,12 +74,12 @@
                                 </button>
                                 <button
                                         class="px-7 py-2.5 rounded-full text-[14px] font-medium transition-all {activeTab ===
-                                        'bewerberkbos'
+                                        'bewerberbox'
                                                 ? 'bg-[#4DB8AC] text-white shadow-sm'
                                                 : 'bg-white text-[#6B7280] border border-[#D1D5DB] hover:border-[#4DB8AC]'}"
-                                        onclick={() => (activeTab = 'bewerberkbos')}
+                                        onclick={() => (activeTab = 'bewerberbox')}
                                 >
-                                        Bewerberkbos
+                                        Bewerberbox
                                 </button>
                         </div>
 
