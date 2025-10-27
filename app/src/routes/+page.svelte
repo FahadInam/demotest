@@ -112,9 +112,19 @@
                                 </div>
 
                                 <div class="mb-32 relative pb-20">
-                                        <div
-                                                class="flex flex-col md:flex-row items-center gap-12 md:gap-16 bg-gradient-to-r from-[#E8F5F3] via-[#EAF4F8] to-[#EBF4FF] rounded-[32px] p-10 md:p-14"
-                                        >
+                                        <div class="absolute inset-0 -mx-6 md:-mx-24 overflow-hidden pointer-events-none" style="height: 100%; z-index: 0;">
+                                                <svg class="absolute w-full h-full" viewBox="0 0 1920 300" preserveAspectRatio="none" style="min-height: 100%;">
+                                                        <defs>
+                                                                <linearGradient id="stepGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                                                        <stop offset="0%" style="stop-color:#E8F5F3;stop-opacity:1" />
+                                                                        <stop offset="50%" style="stop-color:#EAF4F8;stop-opacity:1" />
+                                                                        <stop offset="100%" style="stop-color:#EBF4FF;stop-opacity:1" />
+                                                                </linearGradient>
+                                                        </defs>
+                                                        <path d="M0,80 Q480,20 960,50 T1920,80 L1920,220 Q1440,260 960,240 T0,220 Z" fill="url(#stepGradient)" />
+                                                </svg>
+                                        </div>
+                                        <div class="flex flex-col md:flex-row items-center gap-12 md:gap-16 p-10 md:p-14 relative z-10">
                                                 <div class="flex-1 order-1">
                                                         <div class="w-56 md:w-64 mx-auto md:mx-0">
                                                                 <LaptopSceneIllustration />
