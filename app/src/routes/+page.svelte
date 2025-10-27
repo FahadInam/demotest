@@ -18,7 +18,7 @@
 </svelte:head>
 
 <div class="min-h-screen bg-white font-['Inter',sans-serif]">
-        <header class="absolute top-0 right-0 p-6 z-10">
+        <header class="w-full bg-white flex justify-end items-center px-8 py-4 relative z-10">
                 <a href="#login" class="text-[#4DB8AC] text-sm font-medium hover:underline">Login</a>
         </header>
 
