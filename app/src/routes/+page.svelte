@@ -88,14 +88,20 @@
                         </h2>
 
                         <div class="relative max-w-5xl mx-auto">
-                                <div class="mb-24 relative">
+                                <div class="mb-32 relative pb-20">
                                         <div class="flex flex-col md:flex-row items-center gap-12 md:gap-16">
-                                                <div class="flex-1 text-left md:text-right order-2 md:order-1">
+                                                <div class="flex-1 text-left md:text-right order-2 md:order-1 relative">
                                                         <div class="flex items-start justify-start md:justify-end gap-3 md:gap-5">
                                                                 <span class="text-6xl md:text-7xl font-bold text-[#A0AEC0] leading-none">1.</span>
-                                                                <span class="text-lg md:text-xl text-[#6B7280] font-normal mt-2">Erstelle deinen Lebenslauf</span
+                                                                <span class="text-lg md:text-xl text-[#6B7280] font-normal mt-2">Erstellen dein Lebenslauf</span
                                                                 >
                                                         </div>
+                                                        <img 
+                                                                src="/arrow-2.png" 
+                                                                alt="" 
+                                                                class="absolute left-0 top-full w-72 h-40 hidden md:block pointer-events-none opacity-40"
+                                                                style="transform: translateY(-20px);"
+                                                        />
                                                 </div>
                                                 <div class="flex-1 order-1 md:order-2">
                                                         <div class="w-56 md:w-64 mx-auto md:mx-0">
@@ -103,14 +109,9 @@
                                                         </div>
                                                 </div>
                                         </div>
-                                        <img 
-                                                src="/arrow-2.png" 
-                                                alt="" 
-                                                class="absolute right-0 -bottom-16 w-64 h-32 hidden md:block pointer-events-none opacity-50"
-                                        />
                                 </div>
 
-                                <div class="mb-24 relative">
+                                <div class="mb-32 relative pb-20">
                                         <div
                                                 class="flex flex-col md:flex-row items-center gap-12 md:gap-16 bg-gradient-to-r from-[#E8F5F3] via-[#EAF4F8] to-[#EBF4FF] rounded-[32px] p-10 md:p-14"
                                         >
@@ -119,19 +120,20 @@
                                                                 <LaptopSceneIllustration />
                                                         </div>
                                                 </div>
-                                                <div class="flex-1 text-left order-2">
+                                                <div class="flex-1 text-left order-2 relative">
                                                         <div class="flex items-start gap-3 md:gap-5">
                                                                 <span class="text-6xl md:text-7xl font-bold text-[#A0AEC0] leading-none">2.</span>
                                                                 <span class="text-lg md:text-xl text-[#6B7280] font-normal mt-2">Finde passende Jobs</span
                                                                 >
                                                         </div>
+                                                        <img 
+                                                                src="/arrow-1.png" 
+                                                                alt="" 
+                                                                class="absolute right-0 top-full w-72 h-40 hidden md:block pointer-events-none opacity-40"
+                                                                style="transform: translateY(-20px);"
+                                                        />
                                                 </div>
                                         </div>
-                                        <img 
-                                                src="/arrow-1.png" 
-                                                alt="" 
-                                                class="absolute left-0 -bottom-16 w-64 h-32 hidden md:block pointer-events-none opacity-50"
-                                        />
                                 </div>
 
                                 <div class="mb-16">
