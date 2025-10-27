@@ -27,7 +27,7 @@
                         <div class="flex flex-col md:flex-row items-center justify-between gap-16">
                                 <div class="flex-1 max-w-md z-10">
                                         <h1 class="text-5xl md:text-6xl font-bold text-[#2C3E50] leading-[1.15] mb-10">
-                                                Deine Job<br />webseite
+                                                Deine Job<br />website
                                         </h1>
                                         <button
                                                 class="bg-[#4DB8AC] hover:bg-[#3DA89C] text-white font-medium px-10 py-3.5 rounded-md transition-colors shadow-md text-[15px]"
