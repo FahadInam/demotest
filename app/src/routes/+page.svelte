@@ -22,7 +22,7 @@
                 <a href="#login" class="text-[#4DB8AC] text-sm font-medium hover:underline">Login</a>
         </header>
 
-        <section class="relative bg-[#E8F5F3] pt-24 pb-24 px-6 overflow-hidden">
+        <section class="relative pt-24 pb-24 px-6 overflow-hidden" style="background: linear-gradient(102deg, #EBF4FF 0%, #E6FFFA 100%);">
                 <div class="max-w-6xl mx-auto">
                         <div class="flex flex-col md:flex-row items-center justify-between gap-16">
                                 <div class="flex-1 max-w-md z-10">
@@ -42,6 +42,11 @@
                                         </div>
                                 </div>
                         </div>
+                </div>
+                <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
+                        <svg class="relative block w-full h-[60px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                                <path d="M0,0 Q600,120 1200,0 L1200,120 L0,120 Z" fill="#ffffff"></path>
+                        </svg>
                 </div>
         </section>
 
